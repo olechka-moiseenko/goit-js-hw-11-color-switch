@@ -14,7 +14,7 @@ let timerId = null;
 const randomIntegerFromInterval = (min, max) => {
   return Math.floor(Math.random() * (max - min + 1) + min);
 };
-// btnStop.disabled = true;
+
 btnStart.addEventListener("click", () => {
   if (timerId === null) {
     timerId = setInterval(() => {
